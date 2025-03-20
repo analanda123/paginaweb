@@ -1,0 +1,93 @@
+body {
+    background-color: #5897df; /* Un fondo verde claro */
+    font-family: 'Poppins', sans-serif;
+}
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+nav {
+    background-color: #1c1e1f;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+header img {
+    max-width: 250px;
+}
+
+.main-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.main-content p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.info-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.scroll-container {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 30px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.scroll-box {
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    
+}
